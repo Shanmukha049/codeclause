@@ -13,5 +13,7 @@ elif op=='//':
     print("Floor Division=",n1//n2)
 elif op=='^':
     print("power=",n1**n2)
+elif op=='%':
+    print("modulo division=",n1%n2)
 else:
     print("enter a valid operator")
